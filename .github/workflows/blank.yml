@@ -17,7 +17,7 @@ jobs:
           echo test, and deploy your project.
 test:
   runs-on: ubuntu-latest
-  steps: 
+  steps:
     -name: check uptime
     run: uptime
     -name: cpu info 
